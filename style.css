@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:hover {
+    transition: .3s;
+}
+
+html {
+    font-size: 1.7vw;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'Indie Flower', cursive;
+}
+
+h4,
+h5,
+h6,
+p {
+
+    font-family: verdana;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15vw;
+}
+
+.header {
+    height: 95vh;
+    width: 100%;
+    background: linear-gradient(rgb(255, 255, 255) 20%, rgb(200, 198, 201) 50%, rgb(255, 255, 255) 100%);
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    padding: 1vh 4vw;
+    text-transform: capitalize;
+}
+
+.logo-icon {
+    color: rgb(156, 155, 155);
+}
+
+.header-bg {
+    height: 30vh;
+    background: rgb(200, 198, 201);
+}
+
+.header-title {
+    position: absolute;
+    top: 39vh;
+    right: 2vw;
+    width: 60%;
+    z-index: 0;
+    padding: 0 9vw;
+    color: rgb(32, 40, 66);
+}
+
+.header-1st-title {
+    text-align: right;
+    letter-spacing: .4vw;
+}
+
+.header-2nd-title {
+    padding-left: 7.2vw;
+    margin-top: -4.2vh;
+    letter-spacing: .9vw;
+}
+
+.header-para {
+    width: 35vw;
+    margin: 2.5vh 7vw;
+    letter-spacing: .14vw;
+}
+
+.header-btn {
+    text-decoration: none;
+    padding: 1vh 1vw;
+    color: white;
+    position: absolute;
+    top: 23vh;
+    right: 34.1vw;
+    background: rgb(40, 50, 80)
+}
+
+
+.nav {
+    height: 16vh;
+    width: 100%;
+}
+
+.nav-top {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid rgb(200, 198, 201);
+}
+
+.langs,
+.nav-social-media,
+.registration {
+    width: 23.5%;
+}
+
+.top-nav-link,
+.langs-btn {
+    padding: 0 .7vw;
+    margin: 0 .1vw;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-social-media {
+    padding-top: 5px;
+}
+
+.nav-bottom {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 2vh 4vw;
+
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 1vw;
+}
+
+.nav-link {
+    color: rgb(94, 92, 92);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid rgb(71, 70, 70);
+    color: rgb(71, 70, 70);
+}
+
+.search {
+    color: gray;
+    margin: 2.5vh 3.8vw;
+    border: 1px solid gray;
+}
+
+.search-icon {
+    padding: 0 2px;
+    font-size: 1.5vw;
+    border-right: 1px solid gray;
+}
+
+.input-search {
+    border: none;
+    font-size: 1.1vw;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.input-search::placeholder {
+    font-size: 1.1vw;
+}
+
+.header-png {
+    height: 78.8vh;
+    margin-left: 6vw;
+}
+
+
+
+.main {
+    height: 83vh;
+    padding: 0 14vw;
+}
+
+.online-order {
+    padding: 15vh 12vw;
+    border-bottom: .5px solid lightgray;
+}
+
+.online-order-box {
+    width: 20vw;
+}
+
+.online-order-box-icon {
+    padding: 2vh 1vw;
+    background: rgb(40, 50, 80);
+    color: white;
+    border-radius: 50%;
+}
+
+.aside {
+    width: 21.5%;
+    padding: 3vh 2vw;
+    float: left;
+    color: rgb(30, 30, 30);
+}
+
+.product-holder {
+    width: 78%;
+    padding: 3vh 1vh;
+    float: left;
+}
+
+.left-slide,
+.product-holder-title {
+    float: left;
+}
+
+.right-slide {
+    float: right;
+}
+
+.fa-chevron-left {
+    padding: .5vh .5vw;
+    background: rgb(200, 198, 201);
+
+}
+
+.fa-chevron-right {
+    padding: .5vh .5vw;
+    background: rgb(40, 50, 80);
+    color: white;
+}
+
+.product-holder-title {
+    padding: 0 1vw;
+}
+
+.product-holder-imgs {
+    width: 100%;
+    padding: 5vh 0;
+}
+
+.N-A-box {
+    position: relative;
+    height: 50vh;
+}
+
+.N-A-img {
+    height: 40vh;
+    width: 14vw;
+}
+
+.N-A-btn {
+    padding: 1.5vh 1.5vw;
+    background: rgb(40, 50, 80);
+    color: white;
+    position: absolute;
+    top: 16vh;
+    left: 3.2vw;
+    opacity: 0;
+}
+
+.N-A-box:hover .N-A-btn {
+    opacity: 1;
+}
+
+.like-and-buy {
+    opacity: 0;
+}
+
+.buy {
+    padding: .5vh 0;
+}
+
+.like {
+    float: right;
+}
+
+.price:hover .like-and-buy {
+    opacity: 1;
+}
+
+.bg-break {
+    height: 25vh;
+    width: 56%;
+    background: url(imgs/shoes2.jpg);
+    background-position-y: 100%;
+    background-position-x: 100%;
+    margin-left: 29.2vw;
+}
+
+.seasons{
+    margin-left: 20px;
+}
+
+.seasons-icon{
+    height: 5vh;
+    width: 3.5vw;
+    padding: 1vh 0;
+    margin: .5vh 0;
+    text-align: center;
+    background: rgb(40, 50, 80);
+    color: rgba(182, 155, 4, 0.692); 
+}
+
+.email-us{
+    margin-top: 5vh;
+    padding: 2vh .2vw;
+    background: rgb(200, 198, 201);
+}
+
+.aside-s-m{
+    font-size: 1.2vw;
+    width: 6vw;
+    margin: 3vh 2.1vw;
+}
+
+.aside-p{
+    width: 6vw;
+    margin: 2vh 2.7vw;
+}
+
+.aside-input{
+    width: 10vw;
+    margin: 2vh .7vw;
+    padding: .8vh 0;
+}
+
+.aside-input::placeholder{
+    color: rgb(70,70,70);
+    padding: 0 .2vw;
+}
+
+.aside-submit{
+    margin: 2vh 3vw;
+    padding: .8vh 1.2vw;
+}
+
+.footer{
+    height: 65vh;
+    padding: 0 14vw;
+    margin-top: 20vh;
+    color: rgb(100, 100, 100);
+}
+
+.footer-box-holder{
+    height: 80%;
+}
+.footer-box{
+    height: 100%;
+    width: 25%;
+    padding: 5vh 1vw;
+    line-height: 1.7;
+}
+
+.footer-btn{
+    padding: 1vh 1vw;
+    background: rgb(40, 50, 80);
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    display: inline-block;
+    margin-top: 2vh;
+}
